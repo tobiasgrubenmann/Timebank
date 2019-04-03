@@ -47,6 +47,9 @@
     "created" : {
       "@id" : "http://purl.org/dc/terms/created"
     },
+    "WaterSupply" : {
+      "@id" : "https://w3id.org/timebank#WaterSupply"
+    },
     "Request" : {
       "@id" : "https://w3id.org/timebank#Request"
     },
@@ -198,9 +201,6 @@
     "Depression" : {
       "@id" : "https://w3id.org/timebank#Depression"
     },
-    "IngredientsAvailable" : {
-      "@id" : "https://w3id.org/timebank#IngredientsAvailable"
-    },
     "Person" : {
       "@id" : "http://xmlns.com/foaf/0.1/Person"
     },
@@ -258,6 +258,9 @@
     "Sports" : {
       "@id" : "https://w3id.org/timebank#Sports"
     },
+    "Electricity" : {
+      "@id" : "https://w3id.org/timebank#Electricity"
+    },
     "PoorEyesight" : {
       "@id" : "https://w3id.org/timebank#PoorEyesight"
     },
@@ -292,6 +295,9 @@
     "Plumbing" : {
       "@id" : "https://w3id.org/timebank#Plumbing"
     },
+    "Ingredients" : {
+      "@id" : "https://w3id.org/timebank#Ingredients"
+    },
     "Counseling" : {
       "@id" : "https://w3id.org/timebank#Counseling"
     },
@@ -316,9 +322,6 @@
     "HairCutting" : {
       "@id" : "https://w3id.org/timebank#HairCutting"
     },
-    "SuppliesAvailable" : {
-      "@id" : "https://w3id.org/timebank#SuppliesAvailable"
-    },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
     },
@@ -328,6 +331,9 @@
     "isAcceptedOn" : {
       "@id" : "https://w3id.org/timebank#isAcceptedOn",
       "@type" : "@id"
+    },
+    "Supplies" : {
+      "@id" : "https://w3id.org/timebank#Supplies"
     },
     "hasOriginator" : {
       "@id" : "https://w3id.org/timebank#hasOriginator",
@@ -341,9 +347,6 @@
     },
     "PerformingMusic" : {
       "@id" : "https://w3id.org/timebank#PerformingMusic"
-    },
-    "InternetAvailable" : {
-      "@id" : "https://w3id.org/timebank#InternetAvailable"
     },
     "CareAndSupport" : {
       "@id" : "https://w3id.org/timebank#CareAndSupport"
@@ -366,9 +369,6 @@
     "repeatsOn" : {
       "@id" : "https://w3id.org/timebank#repeatsOn",
       "@type" : "@id"
-    },
-    "ElectricityAvailable" : {
-      "@id" : "https://w3id.org/timebank#ElectricityAvailable"
     },
     "FearOfAnimals" : {
       "@id" : "https://w3id.org/timebank#FearOfAnimals"
@@ -416,6 +416,9 @@
     "UnevenTerrain" : {
       "@id" : "https://w3id.org/timebank#UnevenTerrain"
     },
+    "Tools" : {
+      "@id" : "https://w3id.org/timebank#Tools"
+    },
     "Hypotension" : {
       "@id" : "https://w3id.org/timebank#Hypotension"
     },
@@ -425,9 +428,6 @@
     "hasExpectedDuration" : {
       "@id" : "https://w3id.org/timebank#hasExpectedDuration",
       "@type" : "@id"
-    },
-    "ToolsAvailable" : {
-      "@id" : "https://w3id.org/timebank#ToolsAvailable"
     },
     "Advice" : {
       "@id" : "https://w3id.org/timebank#Advice"
@@ -460,9 +460,6 @@
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
-    "CleaningUtensilsAvailable" : {
-      "@id" : "https://w3id.org/timebank#CleaningUtensilsAvailable"
-    },
     "rating" : {
       "@id" : "https://w3id.org/timebank#rating",
       "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
@@ -487,6 +484,9 @@
     },
     "Carpeting" : {
       "@id" : "https://w3id.org/timebank#Carpeting"
+    },
+    "Internet" : {
+      "@id" : "https://w3id.org/timebank#Internet"
     },
     "Stairs" : {
       "@id" : "https://w3id.org/timebank#Stairs"

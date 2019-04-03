@@ -1,27 +1,26 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "time:Instant" "967181f5092edfb0b005c33ff1d9ac44" "time:DayOfWeek" "time:ProperInterval" "base:Level" "foaf:Person" "base:Limitation" "base:User" "base:Environment" "base:IngredientsAvailable" "time:DurationDescription" "base:Status" "http://www.w3.org/2006/vcard/ns#VCard" "base:Request" "base:Skill" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "time:Instant" "time:DayOfWeek" "time:ProperInterval" "base:Level" "foaf:Person" "base:Limitation" "base:User" "base:Environment" "time:DurationDescription" "base:Status" "http://www.w3.org/2006/vcard/ns#VCard" "base:Request" "aecc7ca54373b7b4a1035e997a0e5f05" "base:Skill" ; /*classes style*/
 	"NULL" -> "base:isOriginatorOf" [ label = "owl:onProperty" ];
-	"NULL" -> "7a30ca98bbe0b496617e28305a7636e3" [ label = "rdf:first" ];
 	"NULL" -> "foaf:Person" [ label = "rdf:first" ];
-	"NULL" -> "6cba420b:169e22a44f3:-7ffb" [ label = "rdf:rest" ];
-	"NULL" -> "6cba420b:169e22a44f3:-7ffa" [ label = "owl:withRestrictions" ];
-	"NULL" -> "5621a071ae0ee71bba215fbe592f4d76" [ label = "rdf:first" ];
+	"NULL" -> "-37d6d27c:169e2a0cb09:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "6d425cb5a1b18407b197c34c31f48daf" [ label = "rdf:first" ];
+	"NULL" -> "-37d6d27c:169e2a0cb09:-7ffb" [ label = "rdf:rest" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "6f2fe61bf74a950175cf01aad8d53844" [ label = "rdf:first" ];
+	"NULL" -> "-37d6d27c:169e2a0cb09:-7ffa" [ label = "owl:withRestrictions" ];
 	"NULL" -> "base:Request" [ label = "rdf:first" ];
 	"NULL" -> "base:hasOriginator" [ label = "owl:onProperty" ];
 	"NULL" -> "xsd:decimal" [ label = "owl:onDatatype" ];
+	"NULL" -> "-37d6d27c:169e2a0cb09:-7ffc" [ label = "owl:unionOf" ];
 	"NULL" -> "base:hasStatus" [ label = "owl:onProperty" ];
-	"NULL" -> "6cba420b:169e22a44f3:-7ff9" [ label = "rdf:rest" ];
 	"NULL" -> "base:rating" [ label = "owl:onProperty" ];
-	"NULL" -> "6cba420b:169e22a44f3:-7ffc" [ label = "owl:unionOf" ];
 	"NULL" -> "base:hasAccreditedDuration" [ label = "owl:onProperty" ];
 	"base:rating" -> "https://w3id.org/timebank" [ label = "rdfs:comment" ];
 	"https://w3id.org/timebank" -> "https://creativecommons.org/licenses/by/4.0/" [ label = ":license" ];
 	"https://w3id.org/timebank" -> "https://w3id.org/timebank/0.1" [ label = "owl:versionIRI" ];
 	"https://w3id.org/timebank" -> "https://creativecommons.org/licenses/by/4.0/" [ label = ":license" ];
-	"base:IngredientsAvailable" -> "https://w3id.org/Ingredients Available" [ label = "rdfs:label" ];
 	"base:rating1to5" -> "base:rating" [ label = "rdfs:subPropertyOf" ];
 	"time:ProperInterval" -> "time:Instant" [ label = "base:endsRepeatingOn" ];
 	"base:Limitation" -> "base:Level" [ label = "base:hasSeverity" ];
@@ -42,10 +41,10 @@ node [shape = rectangle, color="orange"]; "time:Instant" "967181f5092edfb0b005c3
 	"base:User" -> "base:Limitation" [ label = "base:hasLimitation" ];
 	"base:User" -> "time:DurationDescription" [ label = "base:hasTimeBalance" ];
 	"base:User" -> "base:Request" [ label = "base:isOriginatorOf" ];
-	"967181f5092edfb0b005c33ff1d9ac44" -> "http://www.w3.org/2006/vcard/ns#VCard" [ label = "base:hasAddress" ];
+	"aecc7ca54373b7b4a1035e997a0e5f05" -> "http://www.w3.org/2006/vcard/ns#VCard" [ label = "base:hasAddress" ];
 	"base:Skill" -> "base:Level" [ label = "base:hasSkillLevel" ];
 	"base:Request" -> "base:Skill" [ label = "base:requiresSkill" ];
 	"base:Request" -> "base:User" [ label = "base:hasOriginator" ];
-	"base:Request" -> "080ce458956207c9c48ce6eb533a420c" [ label = "base:rating1to5" ];
+	"base:Request" -> "3c5c0034f344fb1bd0f84c3c895c0d4b" [ label = "base:rating1to5" ];
 
 }

@@ -6,6 +6,10 @@
     "Level" : {
       "@id" : "https://w3id.org/timebank#Level"
     },
+    "isAddressOf" : {
+      "@id" : "https://w3id.org/timebank#isAddressOf",
+      "@type" : "@id"
+    },
     "isAvailableOn" : {
       "@id" : "https://w3id.org/timebank#isAvailableOn",
       "@type" : "@id"
@@ -47,6 +51,14 @@
     "created" : {
       "@id" : "http://purl.org/dc/terms/created"
     },
+    "isSkillOf" : {
+      "@id" : "https://w3id.org/timebank#isSkillOf",
+      "@type" : "@id"
+    },
+    "excludesUserByLimitation" : {
+      "@id" : "https://w3id.org/timebank#excludesUserByLimitation",
+      "@type" : "@id"
+    },
     "WaterSupply" : {
       "@id" : "https://w3id.org/timebank#WaterSupply"
     },
@@ -65,6 +77,10 @@
     "Hypertension" : {
       "@id" : "https://w3id.org/timebank#Hypertension"
     },
+    "isRepeatingEndpointOf" : {
+      "@id" : "https://w3id.org/timebank#isRepeatingEndpointOf",
+      "@type" : "@id"
+    },
     "Rheumatism" : {
       "@id" : "https://w3id.org/timebank#Rheumatism"
     },
@@ -73,6 +89,10 @@
     },
     "DurationDescription" : {
       "@id" : "http://www.w3.org/2006/time#DurationDescription"
+    },
+    "isAccreditedTo" : {
+      "@id" : "https://w3id.org/timebank#isAccreditedTo",
+      "@type" : "@id"
     },
     "PhysicallyDisabledCare" : {
       "@id" : "https://w3id.org/timebank#PhysicallyDisabledCare"
@@ -96,6 +116,10 @@
     },
     "isAcceptedBy" : {
       "@id" : "https://w3id.org/timebank#isAcceptedBy",
+      "@type" : "@id"
+    },
+    "isSkillLevelOf" : {
+      "@id" : "https://w3id.org/timebank#isSkillLevelOf",
       "@type" : "@id"
     },
     "Transportation" : {
@@ -159,11 +183,22 @@
       "@id" : "https://w3id.org/timebank#isOriginatorOf",
       "@type" : "@id"
     },
+    "SickCare" : {
+      "@id" : "https://w3id.org/timebank#SickCare"
+    },
     "SensitiveSkin" : {
       "@id" : "https://w3id.org/timebank#SensitiveSkin"
     },
     "User" : {
       "@id" : "https://w3id.org/timebank#User"
+    },
+    "isAcceptanceDateOf" : {
+      "@id" : "https://w3id.org/timebank#isAcceptanceDateOf",
+      "@type" : "@id"
+    },
+    "isSeverityOf" : {
+      "@id" : "https://w3id.org/timebank#isSeverityOf",
+      "@type" : "@id"
     },
     "accepts" : {
       "@id" : "https://w3id.org/timebank#accepts",
@@ -184,6 +219,10 @@
     },
     "SlipperyFloor" : {
       "@id" : "https://w3id.org/timebank#SlipperyFloor"
+    },
+    "isEnvironmentOf" : {
+      "@id" : "https://w3id.org/timebank#isEnvironmentOf",
+      "@type" : "@id"
     },
     "endsRepeatingOn" : {
       "@id" : "https://w3id.org/timebank#endsRepeatingOn",
@@ -216,6 +255,10 @@
     "Mopping" : {
       "@id" : "https://w3id.org/timebank#Mopping"
     },
+    "excludesUserFrom" : {
+      "@id" : "https://w3id.org/timebank#excludesUserFrom",
+      "@type" : "@id"
+    },
     "MentalDisorder" : {
       "@id" : "https://w3id.org/timebank#MentalDisorder"
     },
@@ -224,10 +267,6 @@
     },
     "ElderlyCare" : {
       "@id" : "https://w3id.org/timebank#ElderlyCare"
-    },
-    "excludesByLimitation" : {
-      "@id" : "https://w3id.org/timebank#excludesByLimitation",
-      "@type" : "@id"
     },
     "OnlineShopping" : {
       "@id" : "https://w3id.org/timebank#OnlineShopping"
@@ -249,8 +288,9 @@
     "creator" : {
       "@id" : "http://purl.org/dc/terms/creator"
     },
-    "Surroundings" : {
-      "@id" : "https://w3id.org/timebank#Surroundings"
+    "isLimitationOf" : {
+      "@id" : "https://w3id.org/timebank#isLimitationOf",
+      "@type" : "@id"
     },
     "DancingCompanion" : {
       "@id" : "https://w3id.org/timebank#DancingCompanion"
@@ -266,6 +306,10 @@
     },
     "SpeakingProblem" : {
       "@id" : "https://w3id.org/timebank#SpeakingProblem"
+    },
+    "isTimeBalanceOf" : {
+      "@id" : "https://w3id.org/timebank#isTimeBalanceOf",
+      "@type" : "@id"
     },
     "PhoneCalls" : {
       "@id" : "https://w3id.org/timebank#PhoneCalls"
@@ -288,6 +332,10 @@
     },
     "rights" : {
       "@id" : "http://purl.org/dc/terms/rights"
+    },
+    "isStatusOf" : {
+      "@id" : "https://w3id.org/timebank#isStatusOf",
+      "@type" : "@id"
     },
     "EventPlanning" : {
       "@id" : "https://w3id.org/timebank#EventPlanning"
@@ -348,9 +396,6 @@
     "PerformingMusic" : {
       "@id" : "https://w3id.org/timebank#PerformingMusic"
     },
-    "CareAndSupport" : {
-      "@id" : "https://w3id.org/timebank#CareAndSupport"
-    },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
@@ -373,9 +418,6 @@
     "FearOfAnimals" : {
       "@id" : "https://w3id.org/timebank#FearOfAnimals"
     },
-    "sickness" : {
-      "@id" : "https://w3id.org/timebank#sickness"
-    },
     "Environment" : {
       "@id" : "https://w3id.org/timebank#Environment"
     },
@@ -384,6 +426,17 @@
     },
     "LegalAdvice" : {
       "@id" : "https://w3id.org/timebank#LegalAdvice"
+    },
+    "Care" : {
+      "@id" : "https://w3id.org/timebank#Care"
+    },
+    "isRequiredBy" : {
+      "@id" : "https://w3id.org/timebank#isRequiredBy",
+      "@type" : "@id"
+    },
+    "isCompletionDateOf" : {
+      "@id" : "https://w3id.org/timebank#isCompletionDateOf",
+      "@type" : "@id"
     },
     "TravelCompanion" : {
       "@id" : "https://w3id.org/timebank#TravelCompanion"
@@ -447,11 +500,16 @@
     "Cooking" : {
       "@id" : "https://w3id.org/timebank#Cooking"
     },
-    "PeanutsAllergy" : {
-      "@id" : "https://w3id.org/timebank#PeanutsAllergy"
-    },
     "AccessibleByPublicTransport" : {
       "@id" : "https://w3id.org/timebank#AccessibleByPublicTransport"
+    },
+    "isAvailabilityOf" : {
+      "@id" : "https://w3id.org/timebank#isAvailabilityOf",
+      "@type" : "@id"
+    },
+    "isPublicationDateOf" : {
+      "@id" : "https://w3id.org/timebank#isPublicationDateOf",
+      "@type" : "@id"
     },
     "hasTimeBalance" : {
       "@id" : "https://w3id.org/timebank#hasTimeBalance",
@@ -472,6 +530,10 @@
     },
     "Allergy" : {
       "@id" : "https://w3id.org/timebank#Allergy"
+    },
+    "isRepetitionDayOf" : {
+      "@id" : "https://w3id.org/timebank#isRepetitionDayOf",
+      "@type" : "@id"
     },
     "Games" : {
       "@id" : "https://w3id.org/timebank#Games"
@@ -526,6 +588,10 @@
     },
     "PersonalServices" : {
       "@id" : "https://w3id.org/timebank#PersonalServices"
+    },
+    "isExpectedDurationOf" : {
+      "@id" : "https://w3id.org/timebank#isExpectedDurationOf",
+      "@type" : "@id"
     },
     "VCard" : {
       "@id" : "http://www.w3.org/2006/vcard/ns#VCard"

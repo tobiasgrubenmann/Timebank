@@ -529,18 +529,18 @@ foaf:Person rdf:type owl:Class ;
             rdfs:label "Person" .
 
 
-###  https://w3id.org/timebank#Accessability
-:Accessability rdf:type owl:Class ;
+###  https://w3id.org/timebank#Accessibility
+:Accessibility rdf:type owl:Class ;
                rdfs:subClassOf :Environment ;
                owl:disjointWith :Supplies ;
-               rdfs:comment "Describes any revelant information regarding the accessability of a location of a request." ;
+               rdfs:comment "Describes any revelant information regarding the accessibility of a location of a request." ;
                rdfs:isDefinedBy <https://w3id.org/timebank> ;
-               rdfs:label "Accessability" .
+               rdfs:label "Accessibility" .
 
 
 ###  https://w3id.org/timebank#AccessibleByPublicTransport
 :AccessibleByPublicTransport rdf:type owl:Class ;
-                             rdfs:subClassOf :Accessability ;
+                             rdfs:subClassOf :Accessibility ;
                              rdfs:comment "The location is accessible by public transport." ;
                              rdfs:isDefinedBy <https://w3id.org/timebank> ;
                              rdfs:label "Accessible by Public Transport" .
@@ -1352,7 +1352,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#SlipperyFloor
 :SlipperyFloor rdf:type owl:Class ;
-               rdfs:subClassOf :Accessability ;
+               rdfs:subClassOf :Accessibility ;
                rdfs:comment "The person needs to be aware of slippery floor." ;
                rdfs:isDefinedBy <https://w3id.org/timebank> ;
                rdfs:label "Splippery Floor" .
@@ -1384,7 +1384,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#Stairs
 :Stairs rdf:type owl:Class ;
-        rdfs:subClassOf :Accessability ;
+        rdfs:subClassOf :Accessibility ;
         rdfs:comment "The person has to climb stairs to complete the task." ;
         rdfs:isDefinedBy <https://w3id.org/timebank> ;
         rdfs:label "Stairs" .
@@ -1447,7 +1447,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#TransportationAvailable
 :TransportationAvailable rdf:type owl:Class ;
-                         rdfs:subClassOf :Accessability ;
+                         rdfs:subClassOf :Accessibility ;
                          rdfs:comment "Transportation necessary to complete the task can be provided." ;
                          rdfs:isDefinedBy <https://w3id.org/timebank> ;
                          rdfs:label "Transportation Available" .
@@ -1463,7 +1463,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#UnevenTerrain
 :UnevenTerrain rdf:type owl:Class ;
-               rdfs:subClassOf :Accessability ;
+               rdfs:subClassOf :Accessibility ;
                rdfs:comment "The person needs equipment (e.g. shoes) suitable for uneven terrain." ;
                rdfs:isDefinedBy <https://w3id.org/timebank> ;
                rdfs:label "Uneven Terrain" .
@@ -1495,7 +1495,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#WeatherConstraint
 :WeatherConstraint rdf:type owl:Class ;
-                   rdfs:subClassOf :Accessability ;
+                   rdfs:subClassOf :Accessibility ;
                    rdfs:comment "The place is difficult to access during bad weather (e.g. snow)." ;
                    rdfs:isDefinedBy <https://w3id.org/timebank> ;
                    rdfs:label "Weather Constraint" .

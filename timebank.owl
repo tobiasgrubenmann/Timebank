@@ -529,9 +529,17 @@ foaf:Person rdf:type owl:Class ;
             rdfs:label "Person" .
 
 
+###  https://w3id.org/timebank#Accessability
+:Accessability rdf:type owl:Class ;
+               rdfs:subClassOf :Environment ;
+               rdfs:comment "Describes any revelant information regarding the accessability of a location of a request." ;
+               rdfs:isDefinedBy <https://w3id.org/timebank> ;
+               rdfs:label "Accessability" .
+
+
 ###  https://w3id.org/timebank#AccessibleByPublicTransport
 :AccessibleByPublicTransport rdf:type owl:Class ;
-                             rdfs:subClassOf :Environment ;
+                             rdfs:subClassOf :Accessability ;
                              rdfs:comment "The location is accessible by public transport." ;
                              rdfs:isDefinedBy <https://w3id.org/timebank> ;
                              rdfs:label "Accessible by Public Transport" .
@@ -592,14 +600,6 @@ foaf:Person rdf:type owl:Class ;
            rdfs:comment "The skill to do carpenting." ;
            rdfs:isDefinedBy <https://w3id.org/timebank> ;
            rdfs:label "Carpenting" .
-
-
-###  https://w3id.org/timebank#CatInvolved
-:CatInvolved rdf:type owl:Class ;
-             rdfs:subClassOf :PetInvolved ;
-             rdfs:comment "A cat is involved." ;
-             rdfs:isDefinedBy <https://w3id.org/timebank> ;
-             rdfs:label "Cat Involved" .
 
 
 ###  https://w3id.org/timebank#Catering
@@ -715,14 +715,6 @@ foaf:Person rdf:type owl:Class ;
                   rdfs:label "Dancing Companion" .
 
 
-###  https://w3id.org/timebank#DarkPlace
-:DarkPlace rdf:type owl:Class ;
-           rdfs:subClassOf :Environment ;
-           rdfs:comment "Place with limited lighting." ;
-           rdfs:isDefinedBy <https://w3id.org/timebank> ;
-           rdfs:label "Dark Place" .
-
-
 ###  https://w3id.org/timebank#Depression
 :Depression rdf:type owl:Class ;
             rdfs:subClassOf :MentalDisorder ;
@@ -739,28 +731,12 @@ foaf:Person rdf:type owl:Class ;
           rdfs:label "Diabetes Mellitus" .
 
 
-###  https://w3id.org/timebank#DifficultToAccess
-:DifficultToAccess rdf:type owl:Class ;
-                   rdfs:subClassOf :Environment ;
-                   rdfs:comment "The place is difficult to access." ;
-                   rdfs:isDefinedBy <https://w3id.org/timebank> ;
-                   rdfs:label "Difficult to Access" .
-
-
 ###  https://w3id.org/timebank#Dishwashing
 :Dishwashing rdf:type owl:Class ;
              rdfs:subClassOf :FoodService ;
              rdfs:comment "The skill to assist with washing dishes." ;
              rdfs:isDefinedBy <https://w3id.org/timebank> ;
              rdfs:label "Dishwashing" .
-
-
-###  https://w3id.org/timebank#DogInvolved
-:DogInvolved rdf:type owl:Class ;
-             rdfs:subClassOf :PetInvolved ;
-             rdfs:comment "Dogs are involved." ;
-             rdfs:isDefinedBy <https://w3id.org/timebank> ;
-             rdfs:label "Dog Involved" .
 
 
 ###  https://w3id.org/timebank#DressingAssistance
@@ -877,16 +853,9 @@ foaf:Person rdf:type owl:Class ;
                   rdfs:label "Electronic Repair" .
 
 
-###  https://w3id.org/timebank#ElevatedPlace
-:ElevatedPlace rdf:type owl:Class ;
-               rdfs:subClassOf :Environment ;
-               rdfs:comment "Some high/elevated place is involved. This might trigger fear of heights for some people." ;
-               rdfs:isDefinedBy <https://w3id.org/timebank> ;
-               rdfs:label "Elevated Place" .
-
-
 ###  https://w3id.org/timebank#Environment
 :Environment rdf:type owl:Class ;
+             rdfs:subClassOf :TransportationAvailable ;
              owl:disjointWith :Level ,
                               :Limitation ,
                               :Request ,
@@ -900,7 +869,7 @@ foaf:Person rdf:type owl:Class ;
 ###  https://w3id.org/timebank#EnvironmentalAllergies
 :EnvironmentalAllergies rdf:type owl:Class ;
                         rdfs:subClassOf :Allergy ;
-                        rdfs:comment "An allergy to something in environment such as dust mites, pollen, pet hair and cigarette smoke." ;
+                        rdfs:comment "An allergy to something in the environment such as dust mites, pollen, pet hair and cigarette smoke." ;
                         rdfs:isDefinedBy <https://w3id.org/timebank> ;
                         rdfs:label "Environmental Allergies" .
 
@@ -1216,14 +1185,6 @@ foaf:Person rdf:type owl:Class ;
                   rdfs:label "Personal Services" .
 
 
-###  https://w3id.org/timebank#PetInvolved
-:PetInvolved rdf:type owl:Class ;
-             rdfs:subClassOf :Environment ;
-             rdfs:comment "Pets may be encountered when helping for the request." ;
-             rdfs:isDefinedBy <https://w3id.org/timebank> ;
-             rdfs:label "Pet Involved" .
-
-
 ###  https://w3id.org/timebank#PhoneCalls
 :PhoneCalls rdf:type owl:Class ;
             rdfs:subClassOf :OfficeWork ;
@@ -1391,7 +1352,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#SlipperyFloor
 :SlipperyFloor rdf:type owl:Class ;
-               rdfs:subClassOf :DifficultToAccess ;
+               rdfs:subClassOf :Accessability ;
                rdfs:comment "The person needs to be aware of slippery floor." ;
                rdfs:isDefinedBy <https://w3id.org/timebank> ;
                rdfs:label "Splippery Floor" .
@@ -1423,7 +1384,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#Stairs
 :Stairs rdf:type owl:Class ;
-        rdfs:subClassOf :DifficultToAccess ;
+        rdfs:subClassOf :Accessability ;
         rdfs:comment "The person has to climb stairs to complete the task." ;
         rdfs:isDefinedBy <https://w3id.org/timebank> ;
         rdfs:label "Stairs" .
@@ -1486,7 +1447,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#TransportationAvailable
 :TransportationAvailable rdf:type owl:Class ;
-                         rdfs:subClassOf :PetInvolved ;
+                         rdfs:subClassOf :Environment ;
                          rdfs:comment "Transportation necessary to complete the task can be provided." ;
                          rdfs:isDefinedBy <https://w3id.org/timebank> ;
                          rdfs:label "Transportation Available" .
@@ -1502,7 +1463,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#UnevenTerrain
 :UnevenTerrain rdf:type owl:Class ;
-               rdfs:subClassOf :DifficultToAccess ;
+               rdfs:subClassOf :Accessability ;
                rdfs:comment "The person needs equipment (e.g. shoes) suitable for uneven terrain." ;
                rdfs:isDefinedBy <https://w3id.org/timebank> ;
                rdfs:label "Uneven Terrain" .
@@ -1534,7 +1495,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#WeatherConstraint
 :WeatherConstraint rdf:type owl:Class ;
-                   rdfs:subClassOf :DifficultToAccess ;
+                   rdfs:subClassOf :Accessability ;
                    rdfs:comment "The place is difficult to access during bad weather (e.g. snow)." ;
                    rdfs:isDefinedBy <https://w3id.org/timebank> ;
                    rdfs:label "Weather Constraint" .
@@ -1629,12 +1590,19 @@ foaf:Person rdf:type owl:Class ;
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :AccessibleByPublicTransport
-                :DarkPlace
-                :DifficultToAccess
-                :ElevatedPlace
-                :PetInvolved
+  owl:members ( :Accessability
                 :Supplies
+                :TransportationAvailable
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AccessibleByPublicTransport
+                :SlipperyFloor
+                :Stairs
+                :UnevenTerrain
+                :WeatherConstraint
               )
 ] .
 
@@ -1688,14 +1656,6 @@ foaf:Person rdf:type owl:Class ;
                 :Cooking
                 :Dishwashing
                 :FoodPreparation
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :CatInvolved
-                :DogInvolved
-                :TransportationAvailable
               )
 ] .
 
@@ -1841,15 +1801,6 @@ foaf:Person rdf:type owl:Class ;
                 :PoorHearing
                 :SensitiveSkin
                 :SpeakingProblem
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :SlipperyFloor
-                :Stairs
-                :UnevenTerrain
-                :WeatherConstraint
               )
 ] .
 

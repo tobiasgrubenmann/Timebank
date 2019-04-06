@@ -14,9 +14,6 @@
       "@id" : "https://w3id.org/timebank#isAvailableOn",
       "@type" : "@id"
     },
-    "ElevatedPlace" : {
-      "@id" : "https://w3id.org/timebank#ElevatedPlace"
-    },
     "Dishwashing" : {
       "@id" : "https://w3id.org/timebank#Dishwashing"
     },
@@ -131,9 +128,6 @@
     "Tailoring" : {
       "@id" : "https://w3id.org/timebank#Tailoring"
     },
-    "DifficultToAccess" : {
-      "@id" : "https://w3id.org/timebank#DifficultToAccess"
-    },
     "hasSkill" : {
       "@id" : "https://w3id.org/timebank#hasSkill",
       "@type" : "@id"
@@ -144,9 +138,6 @@
     "requiresSkill" : {
       "@id" : "https://w3id.org/timebank#requiresSkill",
       "@type" : "@id"
-    },
-    "PetInvolved" : {
-      "@id" : "https://w3id.org/timebank#PetInvolved"
     },
     "WalkingProblem" : {
       "@id" : "https://w3id.org/timebank#WalkingProblem"
@@ -173,9 +164,6 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "DarkPlace" : {
-      "@id" : "https://w3id.org/timebank#DarkPlace"
-    },
     "MobilityProblems" : {
       "@id" : "https://w3id.org/timebank#MobilityProblems"
     },
@@ -195,6 +183,9 @@
     "isAcceptanceDateOf" : {
       "@id" : "https://w3id.org/timebank#isAcceptanceDateOf",
       "@type" : "@id"
+    },
+    "Accessability" : {
+      "@id" : "https://w3id.org/timebank#Accessability"
     },
     "isSeverityOf" : {
       "@id" : "https://w3id.org/timebank#isSeverityOf",
@@ -270,9 +261,6 @@
     },
     "OnlineShopping" : {
       "@id" : "https://w3id.org/timebank#OnlineShopping"
-    },
-    "CatInvolved" : {
-      "@id" : "https://w3id.org/timebank#CatInvolved"
     },
     "hasLimitation" : {
       "@id" : "https://w3id.org/timebank#hasLimitation",
@@ -363,9 +351,6 @@
     },
     "ProperInterval" : {
       "@id" : "http://www.w3.org/2006/time#ProperInterval"
-    },
-    "DogInvolved" : {
-      "@id" : "https://w3id.org/timebank#DogInvolved"
     },
     "HairCutting" : {
       "@id" : "https://w3id.org/timebank#HairCutting"

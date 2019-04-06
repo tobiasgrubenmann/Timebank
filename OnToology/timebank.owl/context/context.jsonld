@@ -184,9 +184,6 @@
       "@id" : "https://w3id.org/timebank#isAcceptanceDateOf",
       "@type" : "@id"
     },
-    "Accessability" : {
-      "@id" : "https://w3id.org/timebank#Accessability"
-    },
     "isSeverityOf" : {
       "@id" : "https://w3id.org/timebank#isSeverityOf",
       "@type" : "@id"
@@ -429,6 +426,9 @@
     "hasSeverity" : {
       "@id" : "https://w3id.org/timebank#hasSeverity",
       "@type" : "@id"
+    },
+    "Accessibility" : {
+      "@id" : "https://w3id.org/timebank#Accessibility"
     },
     "PhysicalInconvenience" : {
       "@id" : "https://w3id.org/timebank#PhysicalInconvenience"

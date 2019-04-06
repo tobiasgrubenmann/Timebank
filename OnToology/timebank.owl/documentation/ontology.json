@@ -563,16 +563,16 @@
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
   } ]
 }, {
-  "@id" : "https://w3id.org/timebank#Accessability",
+  "@id" : "https://w3id.org/timebank#Accessibility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Describes any revelant information regarding the accessability of a location of a request."
+    "@value" : "Describes any revelant information regarding the accessibility of a location of a request."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/timebank"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Accessability"
+    "@value" : "Accessibility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/timebank#Environment"
@@ -593,7 +593,7 @@
     "@value" : "Accessible by Public Transport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/timebank#Accessability"
+    "@id" : "https://w3id.org/timebank#Accessibility"
   } ]
 }, {
   "@id" : "https://w3id.org/timebank#Advice",
@@ -2133,7 +2133,7 @@
     "@value" : "Splippery Floor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/timebank#Accessability"
+    "@id" : "https://w3id.org/timebank#Accessibility"
   } ]
 }, {
   "@id" : "https://w3id.org/timebank#SpeakingProblem",
@@ -2193,7 +2193,7 @@
     "@value" : "Stairs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/timebank#Accessability"
+    "@id" : "https://w3id.org/timebank#Accessibility"
   } ]
 }, {
   "@id" : "https://w3id.org/timebank#Status",
@@ -2358,7 +2358,7 @@
     "@value" : "Transportation Available"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/timebank#Accessability"
+    "@id" : "https://w3id.org/timebank#Accessibility"
   } ]
 }, {
   "@id" : "https://w3id.org/timebank#TravelCompanion",
@@ -2388,7 +2388,7 @@
     "@value" : "Uneven Terrain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/timebank#Accessability"
+    "@id" : "https://w3id.org/timebank#Accessibility"
   } ]
 }, {
   "@id" : "https://w3id.org/timebank#User",
@@ -2448,7 +2448,7 @@
     "@value" : "Weather Constraint"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/timebank#Accessability"
+    "@id" : "https://w3id.org/timebank#Accessibility"
   } ]
 }, {
   "@id" : "https://w3id.org/timebank#WoodCarving",

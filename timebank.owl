@@ -532,6 +532,7 @@ foaf:Person rdf:type owl:Class ;
 ###  https://w3id.org/timebank#Accessability
 :Accessability rdf:type owl:Class ;
                rdfs:subClassOf :Environment ;
+               owl:disjointWith :Supplies ;
                rdfs:comment "Describes any revelant information regarding the accessability of a location of a request." ;
                rdfs:isDefinedBy <https://w3id.org/timebank> ;
                rdfs:label "Accessability" .
@@ -855,7 +856,6 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#Environment
 :Environment rdf:type owl:Class ;
-             rdfs:subClassOf :TransportationAvailable ;
              owl:disjointWith :Level ,
                               :Limitation ,
                               :Request ,
@@ -1447,7 +1447,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#TransportationAvailable
 :TransportationAvailable rdf:type owl:Class ;
-                         rdfs:subClassOf :Environment ;
+                         rdfs:subClassOf :Accessability ;
                          rdfs:comment "Transportation necessary to complete the task can be provided." ;
                          rdfs:isDefinedBy <https://w3id.org/timebank> ;
                          rdfs:label "Transportation Available" .
@@ -1590,17 +1590,10 @@ foaf:Person rdf:type owl:Class ;
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Accessability
-                :Supplies
-                :TransportationAvailable
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
   owl:members ( :AccessibleByPublicTransport
                 :SlipperyFloor
                 :Stairs
+                :TransportationAvailable
                 :UnevenTerrain
                 :WeatherConstraint
               )

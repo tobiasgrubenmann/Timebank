@@ -436,6 +436,10 @@
     "Skill" : {
       "@id" : "https://w3id.org/timebank#Skill"
     },
+    "isTimeWindowOf" : {
+      "@id" : "https://w3id.org/timebank#isTimeWindowOf",
+      "@type" : "@id"
+    },
     "FoodAllergies" : {
       "@id" : "https://w3id.org/timebank#FoodAllergies"
     },
@@ -465,6 +469,10 @@
     },
     "hasExpectedDuration" : {
       "@id" : "https://w3id.org/timebank#hasExpectedDuration",
+      "@type" : "@id"
+    },
+    "hasTimeWindow" : {
+      "@id" : "https://w3id.org/timebank#hasTimeWindow",
       "@type" : "@id"
     },
     "Advice" : {

@@ -218,6 +218,16 @@
                 rdfs:label "has time-balance" .
 
 
+###  https://w3id.org/timebank#hasTimeWindow
+:hasTimeWindow rdf:type owl:ObjectProperty ;
+               owl:inverseOf :isTimeWindowOf ;
+               rdfs:domain :Request ;
+               rdfs:range time:ProperInterval ;
+               rdfs:comment "Indicates the time window in which the request can/should be completed." ;
+               rdfs:isDefinedBy <https://w3id.org/timebank> ;
+               rdfs:label "has time window" .
+
+
 ###  https://w3id.org/timebank#isAcceptanceDateOf
 :isAcceptanceDateOf rdf:type owl:ObjectProperty ;
                     owl:inverseOf :isAcceptedOn ;
@@ -433,6 +443,15 @@
                  rdfs:comment "Indicates the current time-balance of a Timebank user." ;
                  rdfs:isDefinedBy <https://w3id.org/timebank> ;
                  rdfs:label "is time-balance of" .
+
+
+###  https://w3id.org/timebank#isTimeWindowOf
+:isTimeWindowOf rdf:type owl:ObjectProperty ;
+                rdfs:domain time:ProperInterval ;
+                rdfs:range :Request ;
+                rdfs:comment "Indicates the time window in which the request can/should be completed." ;
+                rdfs:isDefinedBy <https://w3id.org/timebank> ;
+                rdfs:label "is time window of" .
 
 
 ###  https://w3id.org/timebank#repeatsOn

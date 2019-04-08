@@ -409,9 +409,6 @@
     "LegalAdvice" : {
       "@id" : "https://w3id.org/timebank#LegalAdvice"
     },
-    "Care" : {
-      "@id" : "https://w3id.org/timebank#Care"
-    },
     "isRequiredBy" : {
       "@id" : "https://w3id.org/timebank#isRequiredBy",
       "@type" : "@id"
@@ -575,6 +572,9 @@
     },
     "preferredNamespaceUri" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "PeopleCare" : {
+      "@id" : "https://w3id.org/timebank#PeopleCare"
     },
     "DressingAssistance" : {
       "@id" : "https://w3id.org/timebank#DressingAssistance"

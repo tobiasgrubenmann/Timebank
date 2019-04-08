@@ -475,9 +475,6 @@
     "Advice" : {
       "@id" : "https://w3id.org/timebank#Advice"
     },
-    "rating1to5" : {
-      "@id" : "https://w3id.org/timebank#rating1to5"
-    },
     "ClimbingStairsDifficulty" : {
       "@id" : "https://w3id.org/timebank#ClimbingStairsDifficulty"
     },

@@ -1185,7 +1185,7 @@ foaf:Person rdf:type owl:Class ;
             rdfs:subClassOf :Skill ;
             rdfs:comment "The skill to provide care for people." ;
             rdfs:isDefinedBy <https://w3id.org/timebank> ;
-            rdfs:label "Care for people" .
+            rdfs:label "Care for People" .
 
 
 ###  https://w3id.org/timebank#PerformingMusic

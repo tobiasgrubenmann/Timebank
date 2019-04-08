@@ -158,7 +158,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/timebank#isOriginatorOf"
+    "@id" : "https://w3id.org/timebank#rating"
   } ]
 }, {
   "@id" : "_:genid16",
@@ -168,7 +168,7 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/timebank#rating"
+    "@id" : "https://w3id.org/timebank#hasTimeBalance"
   } ]
 }, {
   "@id" : "_:genid17",
@@ -2022,8 +2022,6 @@
     "@id" : "_:genid14"
   }, {
     "@id" : "_:genid15"
-  }, {
-    "@id" : "_:genid16"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "https://w3id.org/timebank#Skill"
@@ -2404,6 +2402,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Person"
+  }, {
+    "@id" : "_:genid16"
   } ]
 }, {
   "@id" : "https://w3id.org/timebank#WalkingProblem",

@@ -1304,10 +1304,6 @@
                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                          ] ,
                          [ rdf:type owl:Restriction ;
-                           owl:onProperty :isOriginatorOf ;
-                           owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                         ] ,
-                         [ rdf:type owl:Restriction ;
                            owl:onProperty :rating ;
                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                          ] ;
@@ -1487,7 +1483,11 @@
 
 ###  https://w3id.org/timebank#User
 :User rdf:type owl:Class ;
-      rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasTimeBalance ;
+                        owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                      ] ;
       rdfs:comment "A user of the Timebank." ;
       rdfs:isDefinedBy <https://w3id.org/timebank> ;
       rdfs:label "User" .

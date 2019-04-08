@@ -526,8 +526,7 @@
     "@value" : "Timebank Ontology"
   } ],
   "http://purl.org/dc/terms/created" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2019-03-14"
+    "@value" : "2019-04-10"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Ankit Tibrewal"

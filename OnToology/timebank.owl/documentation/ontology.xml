@@ -13,7 +13,7 @@
     <owl:Ontology rdf:about="https://w3id.org/timebank">
         <owl:versionIRI rdf:resource="https://w3id.org/timebank/0.1"/>
         <dc:title>Timebank Ontology</dc:title>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-14</terms:created>
+        <terms:created>2019-04-10</terms:created>
         <terms:creator>Ankit Tibrewal</terms:creator>
         <terms:creator>Subhayan Roy</terms:creator>
         <terms:creator>Tobias Grubenmann</terms:creator>

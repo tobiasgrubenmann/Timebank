@@ -1179,12 +1179,8 @@ _:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/timebank#
 _:genid14 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <https://w3id.org/timebank#Request> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/timebank#isOriginatorOf> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/timebank#rating> .
 _:genid15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<https://w3id.org/timebank#Request> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/timebank#rating> .
-_:genid16 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <https://w3id.org/timebank#Request> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/timebank#Skill> .
 <https://w3id.org/timebank#Request> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/timebank#Status> .
 <https://w3id.org/timebank#Request> <http://www.w3.org/2000/01/rdf-schema#comment> "A request for help from a Timebank user." .
@@ -1340,6 +1336,10 @@ _:genid16 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org
 # https://w3id.org/timebank#User
 <https://w3id.org/timebank#User> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/timebank#User> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<https://w3id.org/timebank#User> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/timebank#hasTimeBalance> .
+_:genid16 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <https://w3id.org/timebank#User> <http://www.w3.org/2000/01/rdf-schema#comment> "A user of the Timebank." .
 <https://w3id.org/timebank#User> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/timebank> .
 <https://w3id.org/timebank#User> <http://www.w3.org/2000/01/rdf-schema#label> "User" .

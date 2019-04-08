@@ -1307,10 +1307,6 @@ foaf:Person rdf:type owl:Class ;
                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                          ] ,
                          [ rdf:type owl:Restriction ;
-                           owl:onProperty :isOriginatorOf ;
-                           owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                         ] ,
-                         [ rdf:type owl:Restriction ;
                            owl:onProperty :rating ;
                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                          ] ;
@@ -1490,7 +1486,11 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#User
 :User rdf:type owl:Class ;
-      rdfs:subClassOf foaf:Person ;
+      rdfs:subClassOf foaf:Person ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasTimeBalance ;
+                        owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                      ] ;
       rdfs:comment "A user of the Timebank." ;
       rdfs:isDefinedBy <https://w3id.org/timebank> ;
       rdfs:label "User" .

@@ -605,14 +605,6 @@ foaf:Person rdf:type owl:Class ;
         rdfs:label "Baking" .
 
 
-###  https://w3id.org/timebank#Care
-:Care rdf:type owl:Class ;
-      rdfs:subClassOf :Skill ;
-      rdfs:comment "The skill to provide care for people." ;
-      rdfs:isDefinedBy <https://w3id.org/timebank> ;
-      rdfs:label "Care" .
-
-
 ###  https://w3id.org/timebank#Carpeting
 :Carpeting rdf:type owl:Class ;
            rdfs:subClassOf :WoodCrafting ;
@@ -632,7 +624,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#ChildCare
 :ChildCare rdf:type owl:Class ;
-           rdfs:subClassOf :Care ;
+           rdfs:subClassOf :PeopleCare ;
            rdfs:comment "The skill to provide care for children." ;
            rdfs:isDefinedBy <https://w3id.org/timebank> ;
            rdfs:label "Child Care" .
@@ -851,7 +843,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#ElderlyCare
 :ElderlyCare rdf:type owl:Class ;
-             rdfs:subClassOf :Care ;
+             rdfs:subClassOf :PeopleCare ;
              rdfs:comment "The skill to provide care and support for the elderly." ;
              rdfs:isDefinedBy <https://w3id.org/timebank> ;
              rdfs:label "Care for Elderly" .
@@ -1126,7 +1118,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#MentallyIllCare
 :MentallyIllCare rdf:type owl:Class ;
-                 rdfs:subClassOf :Care ;
+                 rdfs:subClassOf :PeopleCare ;
                  rdfs:comment "The skill to provide care for the mentally ill." ;
                  rdfs:isDefinedBy <https://w3id.org/timebank> ;
                  rdfs:label "Care Mentally Ill People" .
@@ -1188,6 +1180,14 @@ foaf:Person rdf:type owl:Class ;
                 rdfs:label "Online Shopping" .
 
 
+###  https://w3id.org/timebank#PeopleCare
+:PeopleCare rdf:type owl:Class ;
+            rdfs:subClassOf :Skill ;
+            rdfs:comment "The skill to provide care for people." ;
+            rdfs:isDefinedBy <https://w3id.org/timebank> ;
+            rdfs:label "Care for people" .
+
+
 ###  https://w3id.org/timebank#PerformingMusic
 :PerformingMusic rdf:type owl:Class ;
                  rdfs:subClassOf :Recreation ;
@@ -1222,7 +1222,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#PhysicallyDisabledCare
 :PhysicallyDisabledCare rdf:type owl:Class ;
-                        rdfs:subClassOf :Care ;
+                        rdfs:subClassOf :PeopleCare ;
                         rdfs:comment "The skill to provide care for the physically disabled." ;
                         rdfs:isDefinedBy <https://w3id.org/timebank> ;
                         rdfs:label "Care for Physically Disabled" .
@@ -1351,7 +1351,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#SickCare
 :SickCare rdf:type owl:Class ;
-          rdfs:subClassOf :Care ;
+          rdfs:subClassOf :PeopleCare ;
           rdfs:comment "The skill to provide care for sick people." ;
           rdfs:isDefinedBy <https://w3id.org/timebank> ;
           rdfs:label "Care for Sick People" .
@@ -1621,11 +1621,11 @@ foaf:Person rdf:type owl:Class ;
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :Advice
-                :Care
                 :Crafting
                 :FoodService
                 :Maintenance
                 :OfficeWork
+                :PeopleCare
                 :PersonalServices
                 :Recreation
                 :Repair

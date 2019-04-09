@@ -171,6 +171,10 @@
       "@id" : "https://w3id.org/timebank#isOriginatorOf",
       "@type" : "@id"
     },
+    "isCancelledOn" : {
+      "@id" : "https://w3id.org/timebank#isCancelledOn",
+      "@type" : "@id"
+    },
     "SickCare" : {
       "@id" : "https://w3id.org/timebank#SickCare"
     },
@@ -457,6 +461,10 @@
     },
     "Tools" : {
       "@id" : "https://w3id.org/timebank#Tools"
+    },
+    "isCancellationDateOf" : {
+      "@id" : "https://w3id.org/timebank#isCancellationDateOf",
+      "@type" : "@id"
     },
     "Hypotension" : {
       "@id" : "https://w3id.org/timebank#Hypotension"

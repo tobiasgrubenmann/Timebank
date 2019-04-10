@@ -1523,12 +1523,12 @@ foaf:Person rdf:type owl:Class ;
                 rdfs:label "Walking Problems" .
 
 
-###  https://w3id.org/timebank#WaterSupply
-:WaterSupply rdf:type owl:Class ;
-             rdfs:subClassOf :Supplies ;
-             rdfs:comment "Water outlet is available." ;
-             rdfs:isDefinedBy <https://w3id.org/timebank> ;
-             rdfs:label "Watter Supply" .
+###  https://w3id.org/timebank#Water
+:Water rdf:type owl:Class ;
+       rdfs:subClassOf :Supplies ;
+       rdfs:comment "Water outlet is available." ;
+       rdfs:isDefinedBy <https://w3id.org/timebank> ;
+       rdfs:label "Water" .
 
 
 ###  https://w3id.org/timebank#WeatherConstraint
@@ -1805,7 +1805,7 @@ foaf:Person rdf:type owl:Class ;
                 :Ingredients
                 :Internet
                 :Tools
-                :WaterSupply
+                :Water
               )
 ] .
 

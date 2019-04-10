@@ -199,6 +199,9 @@
     "Mowing" : {
       "@id" : "https://w3id.org/timebank#Mowing"
     },
+    "LimitedAccessibilityRain" : {
+      "@id" : "https://w3id.org/timebank#LimitedAccessibilityRain"
+    },
     "Repair" : {
       "@id" : "https://w3id.org/timebank#Repair"
     },
@@ -532,6 +535,9 @@
     },
     "Games" : {
       "@id" : "https://w3id.org/timebank#Games"
+    },
+    "LimitedAccessibilitySnow" : {
+      "@id" : "https://w3id.org/timebank#LimitedAccessibilitySnow"
     },
     "DrivingVans" : {
       "@id" : "https://w3id.org/timebank#DrivingVans"

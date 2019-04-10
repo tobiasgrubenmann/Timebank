@@ -1640,6 +1640,31 @@
     
 
 
+    <!-- https://w3id.org/timebank#LimitedAccessibilityRain -->
+
+
+    <owl:Class rdf:about="https://w3id.org/timebank#LimitedAccessibilityRain">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#WeatherConstraint"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/timebank#LimitedAccessibilitySnow"/>
+        <rdfs:comment>The place is difficult to access during rainfall.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/timebank"/>
+        <rdfs:label>Limited Accessibility: Rain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/timebank#LimitedAccessibilitySnow -->
+
+
+    <owl:Class rdf:about="https://w3id.org/timebank#LimitedAccessibilitySnow">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#WeatherConstraint"/>
+        <rdfs:comment>The place is difficult to access during snowfall.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/timebank"/>
+        <rdfs:label>Limited Accessibility: Snow</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/timebank#Maintenance -->
 
 

@@ -992,6 +992,21 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <https://w3id.org/timebank#Limitation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/timebank> .
 <https://w3id.org/timebank#Limitation> <http://www.w3.org/2000/01/rdf-schema#label> "Limitation" .
 # 
+# https://w3id.org/timebank#LimitedAccessibilityRain
+<https://w3id.org/timebank#LimitedAccessibilityRain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/timebank#LimitedAccessibilityRain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/timebank#WeatherConstraint> .
+<https://w3id.org/timebank#LimitedAccessibilityRain> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/timebank#LimitedAccessibilitySnow> .
+<https://w3id.org/timebank#LimitedAccessibilityRain> <http://www.w3.org/2000/01/rdf-schema#comment> "The place is difficult to access during rainfall." .
+<https://w3id.org/timebank#LimitedAccessibilityRain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/timebank> .
+<https://w3id.org/timebank#LimitedAccessibilityRain> <http://www.w3.org/2000/01/rdf-schema#label> "Limited Accessibility: Rain" .
+# 
+# https://w3id.org/timebank#LimitedAccessibilitySnow
+<https://w3id.org/timebank#LimitedAccessibilitySnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/timebank#LimitedAccessibilitySnow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/timebank#WeatherConstraint> .
+<https://w3id.org/timebank#LimitedAccessibilitySnow> <http://www.w3.org/2000/01/rdf-schema#comment> "The place is difficult to access during snowfall." .
+<https://w3id.org/timebank#LimitedAccessibilitySnow> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/timebank> .
+<https://w3id.org/timebank#LimitedAccessibilitySnow> <http://www.w3.org/2000/01/rdf-schema#label> "Limited Accessibility: Snow" .
+# 
 # https://w3id.org/timebank#Maintenance
 <https://w3id.org/timebank#Maintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/timebank#Maintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/timebank#Skill> .

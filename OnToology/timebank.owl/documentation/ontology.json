@@ -2159,7 +2159,7 @@
   "@id" : "https://w3id.org/timebank#SpecificPhobia",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Fear of specific objects such as dogs, cats, water, lightning, dark and so on."
+    "@value" : "Fear of specific objects such as dogs, cats, heights, dark places, and so on."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/timebank"

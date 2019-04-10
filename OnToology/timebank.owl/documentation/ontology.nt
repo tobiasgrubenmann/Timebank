@@ -1258,7 +1258,7 @@ _:genid10 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org
 # https://w3id.org/timebank#SpecificPhobia
 <https://w3id.org/timebank#SpecificPhobia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/timebank#SpecificPhobia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/timebank#MentalDisorder> .
-<https://w3id.org/timebank#SpecificPhobia> <http://www.w3.org/2000/01/rdf-schema#comment> "Fear of specific objects such as dogs, cats, water, lightning, dark and so on." .
+<https://w3id.org/timebank#SpecificPhobia> <http://www.w3.org/2000/01/rdf-schema#comment> "Fear of specific objects such as dogs, cats, heights, dark places, and so on." .
 <https://w3id.org/timebank#SpecificPhobia> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/timebank> .
 <https://w3id.org/timebank#SpecificPhobia> <http://www.w3.org/2000/01/rdf-schema#label> "Specific Phobia" .
 # 

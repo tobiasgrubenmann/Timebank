@@ -2091,7 +2091,7 @@
 
     <owl:Class rdf:about="https://w3id.org/timebank#SpecificPhobia">
         <rdfs:subClassOf rdf:resource="https://w3id.org/timebank#MentalDisorder"/>
-        <rdfs:comment>Fear of specific objects such as dogs, cats, water, lightning, dark and so on.</rdfs:comment>
+        <rdfs:comment>Fear of specific objects such as dogs, cats, heights, dark places, and so on.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/timebank"/>
         <rdfs:label>Specific Phobia</rdfs:label>
     </owl:Class>

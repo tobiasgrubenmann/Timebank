@@ -1102,6 +1102,23 @@ foaf:Person rdf:type owl:Class ;
             rdfs:label "Limitation" .
 
 
+###  https://w3id.org/timebank#LimitedAccessibilityRain
+:LimitedAccessibilityRain rdf:type owl:Class ;
+                          rdfs:subClassOf :WeatherConstraint ;
+                          owl:disjointWith :LimitedAccessibilitySnow ;
+                          rdfs:comment "The place is difficult to access during rainfall." ;
+                          rdfs:isDefinedBy <https://w3id.org/timebank> ;
+                          rdfs:label "Limited Accessibility: Rain" .
+
+
+###  https://w3id.org/timebank#LimitedAccessibilitySnow
+:LimitedAccessibilitySnow rdf:type owl:Class ;
+                          rdfs:subClassOf :WeatherConstraint ;
+                          rdfs:comment "The place is difficult to access during snowfall." ;
+                          rdfs:isDefinedBy <https://w3id.org/timebank> ;
+                          rdfs:label "Limited Accessibility: Snow" .
+
+
 ###  https://w3id.org/timebank#Maintenance
 :Maintenance rdf:type owl:Class ;
              rdfs:subClassOf :Skill ;

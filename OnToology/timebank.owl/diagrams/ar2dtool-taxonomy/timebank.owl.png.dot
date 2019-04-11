@@ -1,15 +1,14 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "base:WalkingProblem" "base:Sports" "base:Mopping" "base:Diabetes" "base:Plumbing" "base:Cleaning" "base:Advice" "base:DrivingCars" "base:EnvironmentalAllergy" "base:InventoryManagement" "base:Hypotension" "base:Cooking" "base:PoorHearing" "base:EventPlanning" "base:CognitiveImpairment" "base:HouseholdEquipmentRepair" "base:Allergy" "base:Rheumatism" "base:CraftingClothes" "base:UnevenTerrain" "base:Crafting" "base:Carpeting" "base:DrivingHeavyVehicles" "base:TravelCompanion" "base:Mowing" "base:TransportationAvailable" "base:Recreation" "base:PerformingMusic" "base:PhysicallyDisabledCare" "base:PhoneCalls" "base:DrivingTrucks" "base:FearOfDark" "base:PoorEyesight" "base:CommonDisease" "base:DancingCompanion" "base:DrivingTractors" "base:FearOfDogs" "base:MilkAllergy" "base:Groceries" "base:FoodPreparation" "base:DressingProblem" "base:SensitiveSkin" "base:RecordingNotes" "base:Tailoring" "base:Assembling" "base:Ingredients" "foaf:Person" "base:Limitation" "base:ToiletUsingProblem" "base:SpecificPhobia" "base:Pruning" "base:DrivingWithTrailers" "base:StrokeHistory" "base:WoodCarving" "base:FearOfAnimals" "base:Maintenance" "base:User" "base:Stairs" "base:MobilityProblem" "base:ComputerRepair" "base:Dishwashing" "base:SeafoodAllergy" "base:FoodAllergy" "base:ChildCare" "base:DrivingVans" "base:ClothesWashing" "base:OnlineShopping" "base:Accessibility" "base:ElderlyCare" "base:DrugAllergy" "base:HygieneAssitance" "base:MentallyIllCare" "base:Environment" "base:FoodService" "base:ClimbingStairsDifficulty" "base:Electricity" "base:EggAllergy" "base:Internet" "base:HeartDisease" "base:Transportation" "base:Counseling" "base:PeopleCare" "base:WeatherConstraint" "base:Writing" "base:FinancialAdvice" "base:PersonalServices" "base:Water" "base:LimitedAccessibilityRain" "base:AutomobileRepair" "base:Games" "base:Tools" "base:SickCare" "base:GlutenAllergy" "base:SlipperyFloor" "base:FearOfCats" "base:MentalDisorder" "base:FearOfHeights" "base:Baking" "base:DrivingLightVehicles" "base:DressingAssistance" "base:OfficeWork" "base:PsychoticEpisode" "base:Hypertension" "base:SpeakingProblem" "base:NutsAllergy" "base:Knitting" "base:LimitedAccessibilitySnow" "base:ElectronicRepair" "base:AccessibleByPublicTransport" "base:Repair" "base:SalesServices" "base:Skill" "base:Supplies" "base:HairCutting" "base:Catering" "base:LegalAdvice" "base:WoodCrafting" "base:ComputerProcessing" "base:PhysicalInconvenience" "base:Depression" "base:Sewing" ; /*classes style*/
-	"base:HairCutting" -> "base:PersonalServices" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "base:WalkingProblem" "base:Sports" "base:Mopping" "base:Diabetes" "base:Plumbing" "base:Cleaning" "base:Advice" "base:DrivingCars" "base:EnvironmentalAllergy" "base:InventoryManagement" "base:Hypotension" "base:Cooking" "base:PoorHearing" "base:EventPlanning" "base:CognitiveImpairment" "base:HouseholdEquipmentRepair" "base:Allergy" "base:SalesService" "base:Rheumatism" "base:CraftingClothes" "base:UnevenTerrain" "base:Crafting" "base:Carpeting" "base:PersonalService" "base:DrivingHeavyVehicles" "base:TravelCompanion" "base:Mowing" "base:TransportationAvailable" "base:Recreation" "base:PerformingMusic" "base:PhysicallyDisabledCare" "base:PhoneCalls" "base:DrivingTrucks" "base:FearOfDark" "base:PoorEyesight" "base:CommonDisease" "base:DancingCompanion" "base:DrivingTractors" "base:FearOfDogs" "base:MilkAllergy" "base:Groceries" "base:FoodPreparation" "base:DressingProblem" "base:SensitiveSkin" "base:RecordingNotes" "base:Tailoring" "base:Assembling" "base:Ingredients" "foaf:Person" "base:Limitation" "base:ToiletUsingProblem" "base:SpecificPhobia" "base:Pruning" "base:DrivingWithTrailers" "base:StrokeHistory" "base:WoodCarving" "base:FearOfAnimals" "base:Maintenance" "base:User" "base:Stairs" "base:MobilityProblem" "base:ComputerRepair" "base:Dishwashing" "base:SeafoodAllergy" "base:FoodAllergy" "base:ChildCare" "base:DrivingVans" "base:ClothesWashing" "base:OnlineShopping" "base:Accessibility" "base:ElderlyCare" "base:DrugAllergy" "base:HygieneAssitance" "base:MentallyIllCare" "base:Environment" "base:FoodService" "base:ClimbingStairsDifficulty" "base:Electricity" "base:EggAllergy" "base:Internet" "base:HeartDisease" "base:Transportation" "base:Counseling" "base:PeopleCare" "base:WeatherConstraint" "base:Writing" "base:FinancialAdvice" "base:Water" "base:LimitedAccessibilityRain" "base:AutomobileRepair" "base:Games" "base:Tools" "base:SickCare" "base:GlutenAllergy" "base:SlipperyFloor" "base:FearOfCats" "base:MentalDisorder" "base:FearOfHeights" "base:Baking" "base:DrivingLightVehicles" "base:DressingAssistance" "base:OfficeWork" "base:PsychoticEpisode" "base:Hypertension" "base:SpeakingProblem" "base:NutsAllergy" "base:Knitting" "base:LimitedAccessibilitySnow" "base:ElectronicRepair" "base:AccessibleByPublicTransport" "base:Repair" "base:Skill" "base:Supplies" "base:HairCutting" "base:Catering" "base:LegalAdvice" "base:WoodCrafting" "base:ComputerProcessing" "base:PhysicalInconvenience" "base:Depression" "base:Sewing" ; /*classes style*/
+	"base:HairCutting" -> "base:PersonalService" [ label = "rdfs:subClassOf" ];
 	"base:NutsAllergy" -> "base:FoodAllergy" [ label = "rdfs:subClassOf" ];
 	"base:AccessibleByPublicTransport" -> "base:Accessibility" [ label = "rdfs:subClassOf" ];
-	"base:PersonalServices" -> "base:Skill" [ label = "rdfs:subClassOf" ];
 	"base:Counseling" -> "base:Advice" [ label = "rdfs:subClassOf" ];
 	"base:FinancialAdvice" -> "base:Advice" [ label = "rdfs:subClassOf" ];
 	"base:DrugAllergy" -> "base:Allergy" [ label = "rdfs:subClassOf" ];
-	"base:Groceries" -> "base:SalesServices" [ label = "rdfs:subClassOf" ];
+	"base:Groceries" -> "base:SalesService" [ label = "rdfs:subClassOf" ];
 	"base:DancingCompanion" -> "base:Recreation" [ label = "rdfs:subClassOf" ];
 	"base:SlipperyFloor" -> "base:Accessibility" [ label = "rdfs:subClassOf" ];
 	"base:EnvironmentalAllergy" -> "base:Allergy" [ label = "rdfs:subClassOf" ];
@@ -39,7 +38,7 @@ node [shape = rectangle, color="black"]; "base:WalkingProblem" "base:Sports" "ba
 	"base:Sewing" -> "base:CraftingClothes" [ label = "rdfs:subClassOf" ];
 	"base:ElectronicRepair" -> "base:Repair" [ label = "rdfs:subClassOf" ];
 	"base:DrivingTrucks" -> "base:DrivingHeavyVehicles" [ label = "rdfs:subClassOf" ];
-	"base:DressingAssistance" -> "base:PersonalServices" [ label = "rdfs:subClassOf" ];
+	"base:DressingAssistance" -> "base:PersonalService" [ label = "rdfs:subClassOf" ];
 	"base:MentallyIllCare" -> "base:PeopleCare" [ label = "rdfs:subClassOf" ];
 	"base:WeatherConstraint" -> "base:Accessibility" [ label = "rdfs:subClassOf" ];
 	"base:Baking" -> "base:FoodService" [ label = "rdfs:subClassOf" ];
@@ -48,7 +47,7 @@ node [shape = rectangle, color="black"]; "base:WalkingProblem" "base:Sports" "ba
 	"base:AutomobileRepair" -> "base:Repair" [ label = "rdfs:subClassOf" ];
 	"base:WoodCarving" -> "base:WoodCrafting" [ label = "rdfs:subClassOf" ];
 	"base:TravelCompanion" -> "base:Recreation" [ label = "rdfs:subClassOf" ];
-	"base:OnlineShopping" -> "base:SalesServices" [ label = "rdfs:subClassOf" ];
+	"base:OnlineShopping" -> "base:SalesService" [ label = "rdfs:subClassOf" ];
 	"base:TransportationAvailable" -> "base:Accessibility" [ label = "rdfs:subClassOf" ];
 	"base:Pruning" -> "base:Maintenance" [ label = "rdfs:subClassOf" ];
 	"base:EggAllergy" -> "base:FoodAllergy" [ label = "rdfs:subClassOf" ];
@@ -67,7 +66,6 @@ node [shape = rectangle, color="black"]; "base:WalkingProblem" "base:Sports" "ba
 	"base:Stairs" -> "base:Accessibility" [ label = "rdfs:subClassOf" ];
 	"base:PhoneCalls" -> "base:OfficeWork" [ label = "rdfs:subClassOf" ];
 	"base:PerformingMusic" -> "base:Recreation" [ label = "rdfs:subClassOf" ];
-	"base:SalesServices" -> "base:Skill" [ label = "rdfs:subClassOf" ];
 	"base:FoodService" -> "base:Skill" [ label = "rdfs:subClassOf" ];
 	"base:CognitiveImpairment" -> "base:MentalDisorder" [ label = "rdfs:subClassOf" ];
 	"base:Recreation" -> "base:Skill" [ label = "rdfs:subClassOf" ];
@@ -77,7 +75,8 @@ node [shape = rectangle, color="black"]; "base:WalkingProblem" "base:Sports" "ba
 	"base:ComputerProcessing" -> "base:OfficeWork" [ label = "rdfs:subClassOf" ];
 	"base:InventoryManagement" -> "base:OfficeWork" [ label = "rdfs:subClassOf" ];
 	"base:DrivingVans" -> "base:DrivingLightVehicles" [ label = "rdfs:subClassOf" ];
-	"base:HygieneAssitance" -> "base:PersonalServices" [ label = "rdfs:subClassOf" ];
+	"base:SalesService" -> "base:Skill" [ label = "rdfs:subClassOf" ];
+	"base:HygieneAssitance" -> "base:PersonalService" [ label = "rdfs:subClassOf" ];
 	"base:DrivingCars" -> "base:DrivingLightVehicles" [ label = "rdfs:subClassOf" ];
 	"base:User" -> "foaf:Person" [ label = "rdfs:subClassOf" ];
 	"base:Dishwashing" -> "base:FoodService" [ label = "rdfs:subClassOf" ];
@@ -97,6 +96,7 @@ node [shape = rectangle, color="black"]; "base:WalkingProblem" "base:Sports" "ba
 	"base:FearOfHeights" -> "base:SpecificPhobia" [ label = "rdfs:subClassOf" ];
 	"base:MentalDisorder" -> "base:Limitation" [ label = "rdfs:subClassOf" ];
 	"base:Mowing" -> "base:Maintenance" [ label = "rdfs:subClassOf" ];
+	"base:PersonalService" -> "base:Skill" [ label = "rdfs:subClassOf" ];
 	"base:Mopping" -> "base:Cleaning" [ label = "rdfs:subClassOf" ];
 	"base:ClothesWashing" -> "base:Cleaning" [ label = "rdfs:subClassOf" ];
 	"base:Maintenance" -> "base:Skill" [ label = "rdfs:subClassOf" ];

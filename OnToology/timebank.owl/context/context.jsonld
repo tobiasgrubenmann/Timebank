@@ -94,6 +94,9 @@
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
     },
+    "SalesService" : {
+      "@id" : "https://w3id.org/timebank#SalesService"
+    },
     "hasAccreditedDuration" : {
       "@id" : "https://w3id.org/timebank#hasAccreditedDuration",
       "@type" : "@id"
@@ -400,9 +403,6 @@
     "CommonDisease" : {
       "@id" : "https://w3id.org/timebank#CommonDisease"
     },
-    "SalesServices" : {
-      "@id" : "https://w3id.org/timebank#SalesServices"
-    },
     "repeatsOn" : {
       "@id" : "https://w3id.org/timebank#repeatsOn",
       "@type" : "@id"
@@ -494,6 +494,9 @@
     },
     "FearOfDogs" : {
       "@id" : "https://w3id.org/timebank#FearOfDogs"
+    },
+    "PersonalService" : {
+      "@id" : "https://w3id.org/timebank#PersonalService"
     },
     "ComputerProcessing" : {
       "@id" : "https://w3id.org/timebank#ComputerProcessing"
@@ -592,9 +595,6 @@
     },
     "DressingAssistance" : {
       "@id" : "https://w3id.org/timebank#DressingAssistance"
-    },
-    "PersonalServices" : {
-      "@id" : "https://w3id.org/timebank#PersonalServices"
     },
     "isExpectedDurationOf" : {
       "@id" : "https://w3id.org/timebank#isExpectedDurationOf",

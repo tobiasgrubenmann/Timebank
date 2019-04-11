@@ -766,7 +766,7 @@ foaf:Person rdf:type owl:Class ;
                  rdfs:subClassOf :MobilityProblem ;
                  rdfs:comment "The person has difficulties dressing himself." ;
                  rdfs:isDefinedBy <https://w3id.org/timebank> ;
-                 rdfs:label "Dressing Problems" .
+                 rdfs:label "Dressing Problem" .
 
 
 ###  https://w3id.org/timebank#DrivingCars
@@ -903,13 +903,13 @@ foaf:Person rdf:type owl:Class ;
                rdfs:label "Fear of Animals" .
 
 
-###  https://w3id.org/timebank#FearOfCat
-:FearOfCat rdf:type owl:Class ;
-           rdfs:subClassOf :FearOfAnimals ;
-           owl:disjointWith :FearOfDogs ;
-           rdfs:comment "Fear of cats." ;
-           rdfs:isDefinedBy <https://w3id.org/timebank> ;
-           rdfs:label "Fear of Cats" .
+###  https://w3id.org/timebank#FearOfCats
+:FearOfCats rdf:type owl:Class ;
+            rdfs:subClassOf :FearOfAnimals ;
+            owl:disjointWith :FearOfDogs ;
+            rdfs:comment "Fear of cats." ;
+            rdfs:isDefinedBy <https://w3id.org/timebank> ;
+            rdfs:label "Fear of Cats" .
 
 
 ###  https://w3id.org/timebank#FearOfDark
@@ -1405,7 +1405,7 @@ foaf:Person rdf:type owl:Class ;
                  rdfs:subClassOf :PhysicalInconvenience ;
                  rdfs:comment "The person has difficulties speaking clearly due to body function problems such as injuries to the brain, mouth or throat." ;
                  rdfs:isDefinedBy <https://w3id.org/timebank> ;
-                 rdfs:label "Speaking Problems" .
+                 rdfs:label "Speaking Problem" .
 
 
 ###  https://w3id.org/timebank#SpecificPhobia
@@ -1468,7 +1468,7 @@ foaf:Person rdf:type owl:Class ;
                     rdfs:subClassOf :MobilityProblem ;
                     rdfs:comment "The person has difficulties using toilet." ;
                     rdfs:isDefinedBy <https://w3id.org/timebank> ;
-                    rdfs:label "Toilet Using Problems" .
+                    rdfs:label "Toilet Using Problem" .
 
 
 ###  https://w3id.org/timebank#Tools
@@ -1528,7 +1528,7 @@ foaf:Person rdf:type owl:Class ;
                 rdfs:subClassOf :MobilityProblem ;
                 rdfs:comment "The person has difficulties walking." ;
                 rdfs:isDefinedBy <https://w3id.org/timebank> ;
-                rdfs:label "Walking Problems" .
+                rdfs:label "Walking Problem" .
 
 
 ###  https://w3id.org/timebank#Water

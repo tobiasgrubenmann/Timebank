@@ -94,9 +94,6 @@
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
     },
-    "EnvironmentalAllergies" : {
-      "@id" : "https://w3id.org/timebank#EnvironmentalAllergies"
-    },
     "hasAccreditedDuration" : {
       "@id" : "https://w3id.org/timebank#hasAccreditedDuration",
       "@type" : "@id"
@@ -160,9 +157,6 @@
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
-    "MobilityProblems" : {
-      "@id" : "https://w3id.org/timebank#MobilityProblems"
     },
     "isOriginatorOf" : {
       "@id" : "https://w3id.org/timebank#isOriginatorOf",
@@ -350,14 +344,23 @@
     "CognitiveImpairment" : {
       "@id" : "https://w3id.org/timebank#CognitiveImpairment"
     },
-    "DrugAllergies" : {
-      "@id" : "https://w3id.org/timebank#DrugAllergies"
-    },
     "ProperInterval" : {
       "@id" : "http://www.w3.org/2006/time#ProperInterval"
     },
+    "FoodAllergy" : {
+      "@id" : "https://w3id.org/timebank#FoodAllergy"
+    },
+    "FearOfCats" : {
+      "@id" : "https://w3id.org/timebank#FearOfCats"
+    },
     "HairCutting" : {
       "@id" : "https://w3id.org/timebank#HairCutting"
+    },
+    "EnvironmentalAllergy" : {
+      "@id" : "https://w3id.org/timebank#EnvironmentalAllergy"
+    },
+    "SeafoodAllergy" : {
+      "@id" : "https://w3id.org/timebank#SeafoodAllergy"
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
@@ -444,9 +447,6 @@
       "@id" : "https://w3id.org/timebank#isTimeWindowOf",
       "@type" : "@id"
     },
-    "FoodAllergies" : {
-      "@id" : "https://w3id.org/timebank#FoodAllergies"
-    },
     "DrivingWithTrailers" : {
       "@id" : "https://w3id.org/timebank#DrivingWithTrailers"
     },
@@ -471,6 +471,9 @@
     },
     "Hypotension" : {
       "@id" : "https://w3id.org/timebank#Hypotension"
+    },
+    "DrugAllergy" : {
+      "@id" : "https://w3id.org/timebank#DrugAllergy"
     },
     "ChildCare" : {
       "@id" : "https://w3id.org/timebank#ChildCare"
@@ -508,6 +511,9 @@
     "isPublicationDateOf" : {
       "@id" : "https://w3id.org/timebank#isPublicationDateOf",
       "@type" : "@id"
+    },
+    "MobilityProblem" : {
+      "@id" : "https://w3id.org/timebank#MobilityProblem"
     },
     "hasTimeBalance" : {
       "@id" : "https://w3id.org/timebank#hasTimeBalance",
@@ -574,9 +580,6 @@
     },
     "DrivingLightVehicles" : {
       "@id" : "https://w3id.org/timebank#DrivingLightVehicles"
-    },
-    "FearOfCat" : {
-      "@id" : "https://w3id.org/timebank#FearOfCat"
     },
     "ToiletUsingProblem" : {
       "@id" : "https://w3id.org/timebank#ToiletUsingProblem"

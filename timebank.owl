@@ -509,45 +509,27 @@
 #################################################################
 
 ###  http://www.w3.org/2006/time#DayOfWeek
-time:DayOfWeek rdf:type owl:Class ;
-               rdfs:comment "Seven individual members of :DayOfWeek are included in the ontology, corresponding to the seven days used in the Gregorian calendar, and using the English names :Sunday, :Monday, :Tuesday, :Wednesday, :Thursday, :Friday, :Saturday." ;
-               rdfs:isDefinedBy <http://www.w3.org/2006/time> ;
-               rdfs:label "Day of week" .
+time:DayOfWeek rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2006/time#DurationDescription
-time:DurationDescription rdf:type owl:Class ;
-                         rdfs:comment "Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal" ;
-                         rdfs:isDefinedBy <http://www.w3.org/2006/time> ;
-                         rdfs:label "Duration description" .
+time:DurationDescription rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2006/time#Instant
-time:Instant rdf:type owl:Class ;
-             rdfs:comment "Seven properties, :inXSDDate, :inXSDDateTime (deprecated), :inXSDDateTimeStamp, :inXSDgYear, :inXSDgYearMonth, :inTimePosition, and :inDateTime provide alternative ways to describe the temporal position of an :Instant." ;
-             rdfs:isDefinedBy <http://www.w3.org/2006/time> ;
-             rdfs:label "Time instant" .
+time:Instant rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2006/time#ProperInterval
-time:ProperInterval rdf:type owl:Class ;
-                    rdfs:comment "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different" ;
-                    rdfs:isDefinedBy <http://www.w3.org/2006/time> ;
-                    rdfs:label "Proper interval" .
+time:ProperInterval rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2006/vcard/ns#VCard
-<http://www.w3.org/2006/vcard/ns#VCard> rdf:type owl:Class ;
-                                        rdfs:comment "The vCard class is equivalent to the new Kind class, which is the parent for the four explicit types of vCards (Individual, Organization, Location, Group)" ;
-                                        rdfs:isDefinedBy <http://www.w3.org/2006/vcard/ns> ;
-                                        rdfs:label "VCard" .
+<http://www.w3.org/2006/vcard/ns#VCard> rdf:type owl:Class .
 
 
 ###  http://xmlns.com/foaf/0.1/Person
-foaf:Person rdf:type owl:Class ;
-            rdfs:comment "A person." ;
-            rdfs:isDefinedBy foaf: ;
-            rdfs:label "Person" .
+foaf:Person rdf:type owl:Class .
 
 
 ###  https://w3id.org/timebank#Accessibility
@@ -873,7 +855,8 @@ foaf:Person rdf:type owl:Class ;
                               :Limitation ,
                               :Request ,
                               :Skill ,
-                              :Status ;
+                              :Status ,
+                              :User ;
              rdfs:comment "The environment describes relevant environmental factors of a request." ;
              rdfs:isDefinedBy <https://w3id.org/timebank> ;
              rdfs:label "Environment" .
@@ -1086,7 +1069,8 @@ foaf:Person rdf:type owl:Class ;
        owl:disjointWith :Limitation ,
                         :Request ,
                         :Skill ,
-                        :Status ;
+                        :Status ,
+                        :User ;
        rdfs:comment "The level can be low, medium, or high." ;
        rdfs:isDefinedBy <https://w3id.org/timebank> ;
        rdfs:label "Level" .
@@ -1096,7 +1080,8 @@ foaf:Person rdf:type owl:Class ;
 :Limitation rdf:type owl:Class ;
             owl:disjointWith :Request ,
                              :Skill ,
-                             :Status ;
+                             :Status ,
+                             :User ;
             rdfs:comment "Limitations can be anything which prevents or limits the extent to which a user can help somebody else." ;
             rdfs:isDefinedBy <https://w3id.org/timebank> ;
             rdfs:label "Limitation" .
@@ -1330,7 +1315,8 @@ foaf:Person rdf:type owl:Class ;
                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                          ] ;
          owl:disjointWith :Skill ,
-                          :Status ;
+                          :Status ,
+                          :User ;
          rdfs:comment "A request for help from a Timebank user." ;
          rdfs:isDefinedBy <https://w3id.org/timebank> ;
          rdfs:label "Request" .
@@ -1386,7 +1372,8 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#Skill
 :Skill rdf:type owl:Class ;
-       owl:disjointWith :Status ;
+       owl:disjointWith :Status ,
+                        :User ;
        rdfs:comment "Skills define the capabilities of a user. Users and Timebank requests can be associated to a certain skill (or multiple skills) to facilitate the matching of helper and requester." ;
        rdfs:isDefinedBy <https://w3id.org/timebank> ;
        rdfs:label "Skill" .
@@ -1434,6 +1421,7 @@ foaf:Person rdf:type owl:Class ;
 
 ###  https://w3id.org/timebank#Status
 :Status rdf:type owl:Class ;
+        owl:disjointWith :User ;
         rdfs:comment "The status of a request." ;
         rdfs:isDefinedBy <https://w3id.org/timebank> ;
         rdfs:label "Status" .
